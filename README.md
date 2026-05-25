@@ -1,6 +1,6 @@
-# GenAI RAG Chatbot
+# GenAI Assistant with RAG
 
-A FastAPI + SQLite Retrieval Augmented Generation chatbot using Gemini for embeddings and answer generation. The assistant answers only from the local knowledge base in `backend/docs.json`, stores embeddings in SQLite, retrieves the most relevant chunks with cosine similarity, and keeps short session-based chat history.
+A FastAPI + SQLite Retrieval Augmented Generation Chat Assistant using Gemini for embeddings and answer generation. The assistant answers only from the local knowledge base in `backend/docs.json`, stores embeddings in SQLite, retrieves the most relevant chunks with cosine similarity, and keeps short session-based chat history.
 
 ## Architecture Diagram
 
