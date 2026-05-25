@@ -185,6 +185,14 @@ The tests cover chunking, storage, cosine ranking, threshold rejection, prompt c
 
 ## Screenshots
 
+<<<<<<< HEAD
 ![Chat UI](./screenshots/chat-ui.png)
 ![Grounded Answer](./screenshots/grounded-answer.png)
 ![Unknown Question](./screenshots/unknown-question.png)
+=======
+```md
+![Chat UI](./screenshots/chat-ui.png)
+![Grounded Answer](./screenshots/grounded-answer.png)
+![Unknown Question](./screenshots/unknown-question.png)
+```
+>>>>>>> fe7d32f05cf6eb4019a1b7bc0e3bbc688ac8bc6b
