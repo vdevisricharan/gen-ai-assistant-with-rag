@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Reset Password",
+    "content": "Users can reset their password from Settings > Security. After opening Security, choose Reset Password, enter the current password, and confirm the new password. If a user does not remember the current password, they should use the Forgot Password link on the sign-in page."
+  },
+  {
+    "title": "Account Deletion",
+    "content": "Users can delete their account from Account Settings > Privacy > Delete Account. Account deletion is permanent after a 14 day recovery window. During the recovery window, users can sign in again to cancel deletion."
+  },
+  {
+    "title": "Two-Factor Authentication",
+    "content": "Two-factor authentication can be enabled from Settings > Security > Two-Factor Authentication. Users may choose an authenticator app or SMS verification. Backup codes should be downloaded and stored safely after setup."
+  },
+  {
+    "title": "Change Email Address",
+    "content": "Users can change their email address from Account Settings > Profile > Email Address. The new email address must be verified before it becomes the primary login address."
+  },
+  {
+    "title": "Download Account Data",
+    "content": "Users can download their account data from Account Settings > Privacy > Export Data. The export file is usually prepared within 24 hours and is sent to the verified email address on the account."
+  }
+]

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RAG Chat Assistant</title>
+    <link rel="stylesheet" href="/static/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/static/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png">
+    <link rel="manifest" href="/static/site.webmanifest">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="chat-panel" aria-label="Chat assistant">
+        <header class="chat-header">
+          <div>
+            <h1>RAG Assistant</h1>
+            <p>Account support knowledge base</p>
+          </div>
+          <div class="status" id="status" aria-live="polite">Ready</div>
+        </header>
+
+        <div class="messages" id="messages" aria-live="polite"></div>
+
+        <form class="composer" id="chat-form">
+          <label class="sr-only" for="message-input">Message</label>
+          <textarea
+            id="message-input"
+            rows="1"
+            placeholder="Ask a question"
+            autocomplete="off"
+          ></textarea>
+          <button type="submit" id="send-button">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>
